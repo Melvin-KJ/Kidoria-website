@@ -16,16 +16,6 @@ export const NavbarMenu = [
   },
   {
     id: 4,
-    title: 'Teachers',
-    link: '#',
-  },
-  {
-    id: 5,
-    title: 'Reviews',
-    link: '#',
-  },
-  {
-    id: 6,
     title: 'Contact Us',
     link: '#',
   },

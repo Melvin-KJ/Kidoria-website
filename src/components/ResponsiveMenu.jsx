@@ -17,8 +17,6 @@ const ResponsiveMenu = ({ open }) => {
               <li className='text-primary'>Home</li>
               <li>About Us</li>
               <li>Classes</li>
-              <li>Teachers</li>
-              <li>Reviews</li>
               <li>Contact Us</li>
             </ul>
           </div>
