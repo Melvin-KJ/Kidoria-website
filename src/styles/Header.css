@@ -1,0 +1,85 @@
+.header {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: left;
+  transition: background-image 0.5s ease-in-out;
+  height: 500px;
+}
+
+.header-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-family: 'Lobster Two', serif;
+  margin-top: 20px;
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.header p{
+    font-weight: bolder;
+    font-size: 26px;
+    color: #ef4444;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+  margin-top: 30px;
+}
+
+.learn-more-btn {
+  background-color: #ff6b6b;
+  color: white;
+  margin-right: 10px;
+}
+
+.our-classes-btn {
+  background-color: #003f3f;
+  color: white;
+}
+
+.learn-more-btn:hover {
+  background-color: #ff4d4d;
+}
+
+.our-classes-btn:hover {
+  background-color: #002d2d;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transform: translateY(-50%);
+}
+
+.carousel-prev,
+.carousel-next {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
