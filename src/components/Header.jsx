@@ -47,11 +47,11 @@ const Header = () => {
         <p>{slides[currentSlide].description}</p>
         <div className="header-buttons">
           {/* Button to learn more */}
-          <button className="learn-more-btn hidden lg:flex rounded-full px-4 py-2 text-md text-white bg-primary  items-center gap-4 hover:bg-lighter">
+          <button className="learn-more-btn lg:flex rounded-full px-4 py-2 text-md text-white bg-primary  items-center gap-4 hover:bg-lighter">
             Learn More
           </button>
           {/* Button to view classes */}
-          <button className="our-classes-btn hidden lg:flex rounded-full px-4 py-2 text-md text-white bg-black  items-center gap-4 hover:bg-lighter">
+          <button className="our-classes-btn lg:flex rounded-full px-4 py-2 text-md text-white bg-black  items-center gap-4 hover:bg-lighter">
             Our Classes
           </button>
         </div>

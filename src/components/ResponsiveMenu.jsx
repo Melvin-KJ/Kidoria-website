@@ -12,7 +12,7 @@ const ResponsiveMenu = ({ open }) => {
           transition={{duration:0.3}}
           className="absolute top-20 left-0 w-full h-screen z-20"
         >
-          <div className="text-sm font-semibold text-gray-700 py-10 m-4 rounded-3xl">
+          <div className=" text-sm font-semibold text-gray-700 py-10 m-4 rounded-3xl">
             <ul className="flex flex-col justify-center items-center gap-10">
               <li className='text-primary'>Home</li>
               <li>About Us</li>
