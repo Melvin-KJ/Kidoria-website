@@ -27,13 +27,13 @@ const About = () => {
               we blend our mission with rich cultural expressions, fostering a
               dynamic and inclusive environment.
             </p>
-            <button className="hidden lg:flex rounded-full px-12 py-3 text-md text-white bg-primary  items-center gap-4 hover:bg-lighter">
+            <button className="flex rounded-full px-12 py-3 text-md text-white bg-primary items-center gap-4 hover:bg-lighter">
               Read More
             </button>
           </div>
           <div className="flex items-center justify-center p-4 relative">
             {/* Ring 1 */}
-            <div className="group relative w-80 h-80 rounded-full border-8 border-primary overflow-hidden hover:border-lighter transition duration-300">
+            <div className="group1 relative w-80 h-80 rounded-full border-8 border-primary overflow-hidden hover:border-lighter transition duration-300">
               <img
                 src="/assets/about-1.jpg"
                 alt="Ring1"
@@ -41,7 +41,7 @@ const About = () => {
               />
             </div>
             {/* Ring 2 */}
-            <div className="group absolute left-24 bottom-20 w-56 h-56 rounded-full border-8 border-primary overflow-hidden hover:border-lighter transition duration-300">
+            <div className="group2 absolute left-20 bottom-20 w-56 h-56 rounded-full border-8 border-primary overflow-hidden hover:border-lighter transition duration-300">
               <img
                 src="/assets/about-2.jpg"
                 alt="Ring3"
@@ -49,7 +49,7 @@ const About = () => {
               />
             </div>
             {/* Ring 3 */}
-            <div className="group absolute right-24 bottom-20 w-56 h-56 rounded-full border-8 border-primary overflow-hidden hover:border-lighter transition duration-300">
+            <div className="group3 absolute right-20 bottom-20 w-56 h-56 rounded-full border-8 border-primary overflow-hidden hover:border-lighter transition duration-300">
               <img
                 src="/assets/about-3.jpg"
                 alt="Ring3"
