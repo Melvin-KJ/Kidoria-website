@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8 w-full h-80 ">
+    <footer className="bg-gray-800 text-white py-8 w-full ">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4">
         {/* Get In Touch */}
         <div>
@@ -80,36 +80,36 @@ const Footer = () => {
         {/* Photo Gallery */}
         <div>
           <h2 className="lobster text-2xl font-bold mb-4">Photo Gallery</h2>
-          <div className="grid grid-cols-3 gap-2">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             <img
               src="/assets/classes-1.jpg"
               alt="gallery1"
-              className="rounded-md w-20 h-16"
+              className="rounded-md w-full h-auto"
             />
             <img
               src="/assets/classes-2.jpg"
-              alt="gallery1"
-              className="rounded-md w-20 h-16"
+              alt="gallery2"
+              className="rounded-md w-full h-auto"
             />
             <img
               src="/assets/classes-3.jpg"
-              alt="gallery1"
-              className="rounded-md w-20 h-16"
+              alt="gallery3"
+              className="rounded-md w-full h-auto"
             />
             <img
               src="/assets/classes-4.jpg"
-              alt="gallery1"
-              className="rounded-md w-20 h-16"
+              alt="gallery4"
+              className="rounded-md w-full h-auto"
             />
             <img
               src="/assets/classes-5.jpg"
-              alt="gallery1"
-              className="rounded-md w-20 h-16"
+              alt="gallery5"
+              className="rounded-md w-full h-auto"
             />
             <img
               src="/assets/classes-6.jpg"
-              alt="gallery1"
-              className="rounded-md w-20 h-16"
+              alt="gallery6"
+              className="rounded-md w-full h-auto"
             />
           </div>
         </div>
