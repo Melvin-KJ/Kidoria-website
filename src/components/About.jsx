@@ -6,7 +6,7 @@ const About = () => {
     <div className="about">
       <div className="about-content ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="flex flex-col items-center justify-center p-4 overflow-y-auto max-h-screen text-justify">
+          <div className="flex flex-col items-center justify-center p-4 overflow-y-auto min-h-screen text-justify">
             <h2 className="mt-2 mb-4 text-center">
               Learn More About Our Work And
               <br /> Our Cultural Activities
@@ -41,7 +41,7 @@ const About = () => {
               />
             </div>
             {/* Ring 2 */}
-            <div className="group absolute left-20 top-60 w-56 h-56 rounded-full border-8 border-primary overflow-hidden hover:border-lighter transition duration-300">
+            <div className="group absolute left-24 bottom-20 w-56 h-56 rounded-full border-8 border-primary overflow-hidden hover:border-lighter transition duration-300">
               <img
                 src="/assets/about-2.jpg"
                 alt="Ring3"
@@ -49,7 +49,7 @@ const About = () => {
               />
             </div>
             {/* Ring 3 */}
-            <div className="group absolute right-20 top-60 w-56 h-56 rounded-full border-8 border-primary overflow-hidden hover:border-lighter transition duration-300">
+            <div className="group absolute right-24 bottom-20 w-56 h-56 rounded-full border-8 border-primary overflow-hidden hover:border-lighter transition duration-300">
               <img
                 src="/assets/about-3.jpg"
                 alt="Ring3"

@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
 import Classes from './components/Classes';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -16,6 +17,8 @@ function App() {
       <About/>
       {/* Classes section */}
       <Classes/>
+      {/* Contact us section */}
+      <Footer />
     </div>
   );
 }
