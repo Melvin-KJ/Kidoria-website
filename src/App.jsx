@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
+import Classes from './components/Classes';
 
 function App() {
 
@@ -13,6 +14,8 @@ function App() {
       <Header/>
       {/* About section */}
       <About/>
+      {/* Classes section */}
+      <Classes/>
     </div>
   );
 }
