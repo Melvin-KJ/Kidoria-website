@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import About from './components/About';
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
       <Navbar/>
       {/* Header section */}
       <Header/>
+      {/* About section */}
+      <About/>
     </div>
   );
 }

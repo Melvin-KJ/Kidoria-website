@@ -1,0 +1,22 @@
+.about-content {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Lobster Two', serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+button {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.border-primary{
+  border-color: #007BFF;
+}
+
+

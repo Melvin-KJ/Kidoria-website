@@ -6,8 +6,7 @@ import { MdMenu } from 'react-icons/md';
 import ResponsiveMenu from './ResponsiveMenu';
 
 const Navbar = () => {
-
-    const [open,setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false);
 
   return (
     <>
@@ -16,7 +15,7 @@ const Navbar = () => {
           {/* Logo section */}
           <div className="text-primary loboto text-2xl flex items-center gap-2 font-bold">
             <FaBookOpenReader />
-            <p>Kidoria</p>
+            <p className='text-2xl' >Kidoria</p>
           </div>
           {/* Menu section */}
           <div className="hidden lg:block">
@@ -43,14 +42,14 @@ const Navbar = () => {
             </button>
           </div>
           {/* Mobile hamburger menu section */}
-          <div className='lg:hidden' onClick={()=>setOpen(!open)}>
-            <MdMenu className='text-4xl' />
+          <div className="lg:hidden" onClick={() => setOpen(!open)}>
+            <MdMenu className="text-4xl" />
           </div>
         </div>
       </nav>
 
       {/* Mobile sidebar section */}
-      <ResponsiveMenu open={open}/>
+      <ResponsiveMenu open={open} />
     </>
   );
 };
